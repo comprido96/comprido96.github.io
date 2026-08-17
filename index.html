@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Federico Gambassi — AI engineer building evaluated LLM systems and production Rust backends.">
+  <title>Federico Gambassi — AI Engineer</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f4ef;
+      --surface: #fffdf8;
+      --text: #1b1d1f;
+      --muted: #5d6268;
+      --line: #d8d4ca;
+      --accent: #175d52;
+      --accent-soft: #dcece7;
+      --mark: #9b4a26;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 20% 0%, color-mix(in srgb, var(--accent-soft) 70%, transparent), transparent 28rem),
+        var(--bg);
+      color: var(--text);
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 17px;
+      line-height: 1.65;
+      text-rendering: optimizeLegibility;
+    }
+
+    main, footer {
+      width: min(720px, calc(100% - 40px));
+      margin-inline: auto;
+    }
+
+    header { padding: 88px 0 54px; }
+
+    h1, h2, h3, p { margin-top: 0; }
+
+    h1 {
+      margin-bottom: 8px;
+      font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif;
+      font-size: clamp(2.6rem, 9vw, 4.6rem);
+      font-weight: 600;
+      letter-spacing: -0.045em;
+      line-height: 0.98;
+    }
+
+    .role {
+      margin-bottom: 14px;
+      color: var(--accent);
+      font-size: 1.05rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    .meta, .links {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .links { margin: 4px 0 0; }
+
+    a {
+      color: var(--accent);
+      text-decoration-color: color-mix(in srgb, var(--accent) 45%, transparent);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.2em;
+    }
+
+    a:hover { text-decoration-color: currentColor; }
+    a:focus-visible { outline: 3px solid var(--accent-soft); outline-offset: 4px; }
+
+    section {
+      padding: 44px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    h2 {
+      margin-bottom: 24px;
+      font-size: 0.78rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .bio {
+      max-width: 68ch;
+      font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif;
+      font-size: clamp(1.25rem, 4vw, 1.55rem);
+      line-height: 1.48;
+    }
+
+    .projects { display: grid; gap: 18px; }
+
+    article {
+      padding: 26px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: color-mix(in srgb, var(--surface) 92%, transparent);
+    }
+
+    h3 {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      line-height: 1.3;
+    }
+
+    article p { margin-bottom: 16px; }
+    article p:last-child { margin-bottom: 0; }
+
+    .metrics {
+      color: var(--mark);
+      font-size: 0.82rem;
+      font-weight: 750;
+      letter-spacing: 0.035em;
+      text-transform: uppercase;
+    }
+
+    .download {
+      display: inline-block;
+      padding: 11px 17px;
+      border: 1px solid var(--accent);
+      border-radius: 7px;
+      background: var(--accent);
+      color: var(--surface);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .download:hover { filter: brightness(1.08); }
+
+    footer {
+      padding: 28px 0 48px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+
+    @media (max-width: 540px) {
+      main, footer { width: min(100% - 28px, 720px); }
+      header { padding: 60px 0 38px; }
+      section { padding: 36px 0; }
+      article { padding: 21px; }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111516;
+        --surface: #171c1d;
+        --text: #edf0ec;
+        --muted: #aab1ae;
+        --line: #343b3a;
+        --accent: #77c9b7;
+        --accent-soft: #173a34;
+        --mark: #efaa81;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Federico<br>Gambassi</h1>
+      <p class="role">AI Engineer — LLM systems, evals, Rust</p>
+      <div class="meta">Firenze, Italy</div>
+      <p class="links"><a href="https://github.com/comprido96">GitHub</a> · <a href="mailto:fedegambassi96@gmail.com">fedegambassi96@gmail.com</a></p>
+    </header>
+
+    <section aria-labelledby="about">
+      <h2 id="about">About</h2>
+      <p class="bio">AI and backend engineer with 4+ years building and operating production AI systems end-to-end. I design LLM agents and evaluation pipelines with frozen eval sets, regression gates, and red-teaming, then ship the backends underneath them in Rust and Python.</p>
+    </section>
+
+    <section aria-labelledby="work">
+      <h2 id="work">Selected work</h2>
+      <div class="projects">
+        <article>
+          <h3><a href="https://github.com/comprido96/comando">comando</a></h3>
+          <p>A LoRA fine-tune of Qwen3-4B for Italian smart-home NLU. It beats a prompted gpt-5-mini baseline on a frozen, hand-verified eval set, with a published data-size ablation and failure taxonomy.</p>
+          <p class="metrics">98.5% vs 90.25% exact match · $0 inference cost</p>
+        </article>
+
+        <article>
+          <h3><a href="https://github.com/comprido96/dymora-engineering">Dymora engineering</a></h3>
+          <p>A case study on solo-building and operating a production SaaS with paying customers. The core service is written in Rust and includes Stripe billing protected by two-layer webhook idempotency.</p>
+          <p class="metrics">~49k LOC Rust · 800+ automated tests</p>
+        </article>
+
+        <article>
+          <h3><a href="https://github.com/comprido96/LetsDAT-Otc-Swap">LetsDAT-Otc-Swap</a></h3>
+          <p>An OTC swap protocol built with Solana and Anchor, featuring Pyth oracle pricing, minimum-collateral checks, and a TypeScript integration test suite for devnet.</p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="cv">
+      <h2 id="cv">Curriculum vitae</h2>
+      <p><a class="download" href="cv.pdf" download>Download CV (PDF)</a></p>
+    </section>
+  </main>
+
+  <footer>© 2026 Federico Gambassi</footer>
+</body>
+</html>
