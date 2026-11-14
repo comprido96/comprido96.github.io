@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Federico Gambassi — Field Notes</title>
+    <link>https://comprido96.github.io/notes/</link>
+    <description>Notes on AI evaluation, production agents, Rust systems, and operating software.</description>
+    <language>en</language>
+    <lastBuildDate>Sat, 14 Nov 2026 12:00:00 +0100</lastBuildDate>
+    <item>
+      <title>What 1,000+ tests change in a solo-built SaaS</title>
+      <link>https://comprido96.github.io/notes/testing-architecture/</link>
+      <guid>https://comprido96.github.io/notes/testing-architecture/</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 +0100</pubDate>
+      <description>Why a large test suite matters less as a number than as a constraint on architecture, boundaries, and operational risk.</description>
+    </item>
+    <item>
+      <title>When more training data performs worse</title>
+      <link>https://comprido96.github.io/notes/more-data-worse/</link>
+      <guid>https://comprido96.github.io/notes/more-data-worse/</guid>
+      <pubDate>Sat, 14 Nov 2026 11:00:00 +0100</pubDate>
+      <description>A 1,500-example adapter beat the 5,000-example run. The useful result is the unanswered question, not a tidy story.</description>
+    </item>
+  </channel>
+</rss>
