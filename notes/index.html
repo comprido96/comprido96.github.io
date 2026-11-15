@@ -69,6 +69,8 @@ permalink: /notes/
         <div class="archive-visual test-visual" aria-hidden="true"><span>HTTP</span><span>DOMAIN</span><span>PORTS</span><span>IN-MEMORY</span></div>
         {% elsif post.visual == "ablation" %}
         <div class="archive-visual ablation-visual" aria-label="Exact match by training size: 500 examples 73.12 percent, 1,500 examples 95.70 percent, 5,000 examples 94.62 percent"><div><span>500</span><i style="--h:73.12%"></i><strong>73.12</strong></div><div><span>1.5k</span><i style="--h:95.7%"></i><strong>95.70</strong></div><div><span>5k</span><i style="--h:94.62%"></i><strong>94.62</strong></div></div>
+        {% elsif post.visual == "agent-loop" %}
+        <div class="archive-visual agent-loop-visual" aria-hidden="true"><span>FRAME</span><i>→</i><span>DELEGATE</span><i>→</i><span>VERIFY</span><i>→</i><strong>ACCEPT</strong></div>
         {% else %}
         <div class="archive-visual test-visual" aria-hidden="true"><span>OBSERVE</span><span>BUILD</span><span>MEASURE</span><span>LEARN</span></div>
         {% endif %}

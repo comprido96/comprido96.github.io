@@ -6,7 +6,7 @@ The public site is built by GitHub Pages with Jekyll. No CMS or custom build dep
 
 1. Copy an existing file in `_posts/` to `_posts/YYYY-MM-DD-slug.md`.
 2. Update every front-matter field. `order` controls the archive and homepage order; lower numbers appear first.
-3. Use `visual: test-stack`, `visual: ablation`, or omit it for the generic archive visual.
+3. Use `visual: test-stack`, `visual: ablation`, `visual: agent-loop`, or omit it for the generic archive visual.
 4. Write the article in Markdown. HTML is allowed for the existing callout, table, and metric components.
 5. Commit and push. GitHub Pages rebuilds `/notes/`, `/notes/feed.xml`, and `/sitemap.xml` automatically.
 

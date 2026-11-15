@@ -71,6 +71,14 @@
       <div><span>5,000 examples</span><i style="--score:94.62%"></i><strong>94.62%</strong></div>
       <figcaption>Exact match on a 186-example development set. The three training sets are nested prefixes of the same shuffle.</figcaption>
     </figure>
+    {% elsif page.visual == "agent-loop" %}
+    <figure class="article-figure shell agent-loop-figure">
+      <div><span>01</span><strong>Frame</strong><small>outcome · boundary · non-goals</small></div>
+      <div><span>02</span><strong>Delegate</strong><small>bounded execution</small></div>
+      <div><span>03</span><strong>Verify</strong><small>diff · tests · real boundary</small></div>
+      <div><span>04</span><strong>Integrate</strong><small>human-owned acceptance</small></div>
+      <figcaption>The agent operates inside an explicit contract. The engineer retains ownership of architecture and acceptance.</figcaption>
+    </figure>
     {% endif %}
 
     <article class="article-body">
