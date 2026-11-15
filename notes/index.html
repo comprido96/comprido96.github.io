@@ -65,7 +65,9 @@ permalink: /notes/
           <p>{{ post.archive_description }}</p>
           <a class="note-link" href="{{ post.url }}">Read note <span aria-hidden="true">→</span></a>
         </div>
-        {% if post.visual == "test-stack" %}
+        {% if post.visual == "eval-freeze" %}
+        <div class="archive-visual eval-freeze-visual" aria-label="639 candidates became 586 verified examples, then split into 186 development and 400 frozen examples"><span>639<br><small>CANDIDATES</small></span><i>→</i><span>586<br><small>VERIFIED</small></span><i>↗</i><span>186<br><small>DEVELOP</small></span><strong>400<br><small>FROZEN</small></strong></div>
+        {% elsif post.visual == "test-stack" %}
         <div class="archive-visual test-visual" aria-hidden="true"><span>HTTP</span><span>DOMAIN</span><span>PORTS</span><span>IN-MEMORY</span></div>
         {% elsif post.visual == "ablation" %}
         <div class="archive-visual ablation-visual" aria-label="Exact match by training size: 500 examples 73.12 percent, 1,500 examples 95.70 percent, 5,000 examples 94.62 percent"><div><span>500</span><i style="--h:73.12%"></i><strong>73.12</strong></div><div><span>1.5k</span><i style="--h:95.7%"></i><strong>95.70</strong></div><div><span>5k</span><i style="--h:94.62%"></i><strong>94.62</strong></div></div>

@@ -4,7 +4,7 @@ title: "When more training data performs worse"
 slug: more-data-worse
 date: 2026-11-14 08:00:00 +0100
 last_modified: 2026-11-14
-order: 3
+order: 4
 category: Evaluation
 read_time: 6
 description: "Why a 1,500-example LoRA run outperformed 5,000 examples—and what the result does not prove."

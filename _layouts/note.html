@@ -56,7 +56,15 @@
       <p class="article-deck">{{ page.deck }}</p>
     </header>
 
-    {% if page.visual == "test-stack" %}
+    {% if page.visual == "eval-freeze" %}
+    <figure class="article-figure shell eval-freeze-figure">
+      <div><span>01</span><strong>Generate</strong><small>639 candidates</small></div>
+      <div><span>02</span><strong>Verify</strong><small>586 retained</small></div>
+      <div><span>03A</span><strong>Develop</strong><small>186 · iterate here</small></div>
+      <div class="frozen"><span>03B</span><strong>Freeze</strong><small>400 · open once</small></div>
+      <figcaption>Model selection stays on the development split. The versioned holdout remains outside the optimization loop.</figcaption>
+    </figure>
+    {% elsif page.visual == "test-stack" %}
     <figure class="article-figure shell test-stack-figure">
       <div><span>HTTP contract</span><small>real axum app · ephemeral port</small></div>
       <div><span>Domain</span><small>rules without vendor SDKs</small></div>

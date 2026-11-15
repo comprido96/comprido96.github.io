@@ -4,7 +4,7 @@ title: "What 1,000+ tests change in a solo-built SaaS"
 slug: testing-architecture
 date: 2026-11-14 09:00:00 +0100
 last_modified: 2026-11-14
-order: 2
+order: 3
 category: Architecture
 read_time: 7
 description: "How 1,000+ tests shaped the architecture and operation of a solo-built production SaaS."

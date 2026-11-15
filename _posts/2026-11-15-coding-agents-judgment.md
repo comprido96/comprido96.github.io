@@ -4,7 +4,7 @@ title: "How I use coding agents without outsourcing engineering judgment"
 slug: coding-agents-judgment
 date: 2026-11-15 16:00:00 +0100
 last_modified: 2026-11-15
-order: 1
+order: 2
 category: Delivery
 read_time: 5
 description: "A practical workflow for using coding agents while keeping architecture, acceptance conditions, and final verification under human control."
