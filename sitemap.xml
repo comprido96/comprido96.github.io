@@ -9,5 +9,9 @@ permalink: /sitemap.xml
   {% for post in site.posts %}
   <url><loc>{{ site.url }}{{ post.url }}</loc><lastmod>{{ post.last_modified | default: post.date | date: '%Y-%m-%d' }}</lastmod></url>
   {% endfor %}
+  {% assign indexed_pages = site.pages | where: "sitemap", true %}
+  {% for indexed_page in indexed_pages %}
+  <url><loc>{{ site.url }}{{ indexed_page.url }}</loc><lastmod>{{ indexed_page.last_modified }}</lastmod></url>
+  {% endfor %}
   <url><loc>{{ site.url }}/privacy/</loc><lastmod>2026-11-15</lastmod></url>
 </urlset>
