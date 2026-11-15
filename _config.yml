@@ -1,0 +1,14 @@
+title: Federico Gambassi
+description: Independent AI Systems Engineer building measurable AI systems and production backends.
+url: https://comprido96.github.io
+baseurl: ""
+timezone: Europe/Rome
+permalink: /notes/:slug/
+markdown: kramdown
+
+# Dark-launch flag. Move the coaching draft into a public page before enabling.
+coaching_enabled: false
+
+exclude:
+  - redesign
+  - AUTHORING.md
