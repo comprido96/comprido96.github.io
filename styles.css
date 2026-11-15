@@ -468,6 +468,15 @@ h3 { line-height: 1.18; }
 .article-end p { color: var(--muted); font-size: 0.84rem; }
 .article-end .button { margin-top: 1rem; }
 
+.success-page { min-height: calc(100vh - 250px); display: grid; align-items: center; padding-block: clamp(5rem, 12vw, 10rem); }
+.success-panel { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(260px, 0.75fr); border-block: 1px solid var(--ink); }
+.success-copy { padding: clamp(2rem, 6vw, 5rem) clamp(2rem, 6vw, 5rem) clamp(2rem, 6vw, 5rem) 0; }
+.success-copy h1 { max-width: 760px; margin: 0.4rem 0 1.4rem; }
+.success-copy > p:not(.eyebrow) { max-width: 610px; color: var(--muted); font-size: 1.08rem; }
+.success-actions { display: flex; flex-wrap: wrap; gap: 1rem 1.5rem; align-items: center; margin-top: 2rem; }
+.success-mark { min-height: 360px; display: grid; place-items: center; border-left: 1px solid var(--ink); background: var(--signal-soft); }
+.success-mark span { display: grid; width: 140px; height: 140px; place-items: center; border: 1px solid var(--ink); border-radius: 50%; color: var(--signal-dark); font-family: var(--font-display); font-size: 5rem; }
+
 .about { border-top: 1px solid var(--ink); background: var(--sheet); }
 .about-layout { display: grid; grid-template-columns: minmax(340px, 0.8fr) minmax(0, 1.2fr); gap: clamp(3rem, 8vw, 8rem); padding-top: clamp(2.5rem, 6vw, 5rem); align-items: stretch; }
 .about-plate { position: relative; min-height: 520px; display: flex; flex-direction: column; justify-content: space-between; overflow: hidden; padding: 1.4rem; border: 1px solid var(--ink); background: var(--signal-soft); }
@@ -578,6 +587,9 @@ h3 { line-height: 1.18; }
   .archive-visual { grid-column: 1 / -1; min-height: 220px; border-top: 1px solid var(--ink); border-left: 0; }
   .test-visual { grid-template-columns: repeat(4, 1fr); align-items: center; }
   .test-visual span:nth-child(n) { margin-inline: 0; }
+  .success-panel { grid-template-columns: 1fr; }
+  .success-copy { padding-right: 0; }
+  .success-mark { min-height: 240px; border-top: 1px solid var(--ink); border-left: 0; }
 }
 
 @media (max-width: 700px) {
