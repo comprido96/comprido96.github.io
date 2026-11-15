@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Federico Gambassi — Independent AI Systems Engineer</title>
+  <desc id="desc">A minimal editorial card about measurable AI systems, evaluation, and production backends.</desc>
+  <rect width="1200" height="630" fill="#f3f0e8"/>
+  <path d="M0 71.5H1200M0 558.5H1200" stroke="#c9c4b8"/>
+  <g opacity=".55" stroke="#c9c4b8">
+    <path d="M0 143.5H1200M0 215.5H1200M0 287.5H1200M0 359.5H1200M0 431.5H1200M0 503.5H1200"/>
+  </g>
+  <rect x="72" y="72" width="1056" height="486" fill="#fbf9f3" stroke="#171816" stroke-width="2"/>
+  <rect x="72" y="72" width="18" height="486" fill="#b33f20"/>
+  <text x="126" y="129" fill="#b33f20" font-family="IBM Plex Mono, SFMono-Regular, Consolas, monospace" font-size="22" font-weight="600" letter-spacing="1.2">FG/ INDEPENDENT AI SYSTEMS ENGINEER</text>
+  <text x="126" y="246" fill="#171816" font-family="Georgia, Times New Roman, serif" font-size="72" font-weight="500">AI systems that can be</text>
+  <text x="126" y="326" fill="#171816" font-family="Georgia, Times New Roman, serif" font-size="72" font-weight="500">measured, trusted, and shipped.</text>
+  <text x="126" y="410" fill="#5b5d57" font-family="Arial, Helvetica, sans-serif" font-size="28">LLM evaluation · Production agents · Rust &amp; Python backends</text>
+  <g transform="translate(126 474)" font-family="IBM Plex Mono, SFMono-Regular, Consolas, monospace" font-size="19" fill="#171816">
+    <circle cx="8" cy="-7" r="7" fill="#b33f20"/>
+    <text x="28" y="0">FEDERICO GAMBASSI</text>
+    <text x="823" y="0" text-anchor="end" fill="#5b5d57">FLORENCE · REMOTE</text>
+  </g>
+</svg>

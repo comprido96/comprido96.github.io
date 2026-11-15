@@ -16,9 +16,51 @@ layout: null
   <meta property="og:title" content="Federico Gambassi — Independent AI Systems Engineer">
   <meta property="og:description" content="Measurable AI systems, LLM evaluations, production agents, and Rust and Python backends.">
   <meta property="og:url" content="https://comprido96.github.io/">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://comprido96.github.io/assets/social-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:alt" content="Federico Gambassi — Independent AI Systems Engineer. AI systems that can be measured, trusted, and shipped.">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Federico Gambassi — Independent AI Systems Engineer">
   <meta name="twitter:description" content="Measurable AI systems, LLM evaluations, production agents, and Rust and Python backends.">
+  <meta name="twitter:image" content="https://comprido96.github.io/assets/social-card.png">
+  <meta name="twitter:image:alt" content="Federico Gambassi — Independent AI Systems Engineer. AI systems that can be measured, trusted, and shipped.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://comprido96.github.io/#person",
+        "name": "Federico Gambassi",
+        "url": "https://comprido96.github.io/",
+        "jobTitle": "Independent AI Systems Engineer",
+        "homeLocation": { "@type": "Place", "name": "Florence, Italy" },
+        "sameAs": ["https://github.com/comprido96"],
+        "knowsAbout": ["LLM evaluation", "AI agents", "Rust", "Python", "backend engineering"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://comprido96.github.io/#website",
+        "url": "https://comprido96.github.io/",
+        "name": "Federico Gambassi",
+        "inLanguage": "en",
+        "publisher": { "@id": "https://comprido96.github.io/#person" }
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://comprido96.github.io/#service",
+        "name": "Federico Gambassi — AI Systems Engineering",
+        "url": "https://comprido96.github.io/",
+        "description": "Independent engineering services for measurable AI systems, LLM evaluations, production agents, and Rust and Python backends.",
+        "provider": { "@id": "https://comprido96.github.io/#person" },
+        "areaServed": ["Europe", "United States"],
+        "serviceType": ["LLM evaluation", "AI agent engineering", "Backend engineering"]
+      }
+    ]
+  }
+  </script>
   <title>Federico Gambassi — Independent AI Systems Engineer</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +73,7 @@ layout: null
 
   <header class="site-header">
     <div class="shell header-inner">
-      <a class="wordmark" href="#top" aria-label="Federico Gambassi, home">
+      <a class="wordmark" href="#top" aria-label="FG/ Federico Gambassi, home">
         <span class="wordmark-mark" aria-hidden="true">FG/</span>
         <span>Federico Gambassi</span>
       </a>
@@ -343,7 +385,7 @@ layout: null
           <div class="note-meta"><span>{{ post.category }}</span><span>{{ post.read_time }} min</span></div>
           <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
           <p>{{ post.homepage_description }}</p>
-          <a class="note-link" href="{{ post.url }}" aria-label="Read {{ post.title | escape }}">Read note <span aria-hidden="true">→</span></a>
+          <a class="note-link" href="{{ post.url }}" aria-label="Read note: {{ post.title | escape }}">Read note <span aria-hidden="true">→</span></a>
         </article>
         {% endfor %}
       </div>
